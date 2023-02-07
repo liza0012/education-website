@@ -117,3 +117,31 @@
   .col-lg-7{
     float: right;
   }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /*@media screen and (max-width: 500px) {
+    .col-sm {
+      width: 100%;
+    }
+  }*/
+  
+
+  .btn-2{
+    width:70px;
+    height:70px;
+    justify-content: center;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .h1{
+    justify-content: center;
+    text-align: center;
+    text-decoration:double;
+  }
