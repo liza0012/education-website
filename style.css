@@ -79,3 +79,19 @@
     font-size: larger;
     font-weight: bold;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .btn{
+    border-radius:50% ;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+  }
