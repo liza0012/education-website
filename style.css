@@ -1,0 +1,64 @@
+:root{
+    --primary-color: rgba(11, 32, 80, 1); 
+    --dark-gray: #525252;
+    --off-white: #e2e8f0;
+}
+
+/*links*/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+.link-primary{
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color: white;
+   
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5ren;
+    border: 1px solid var(--primary-color);
+    
+
+}
+
+/* lists*/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation*/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link{
+    text-align: right;
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
